@@ -1,0 +1,16 @@
+header{
+    height: 150px;
+    background-color: #192c33;
+}
+nav{
+    height: 70px;
+    background-color: #b0e076;
+}
+main{
+    height: 550px;/* */
+    background-color: #e8e8e8;
+}
+footer{
+    height: 150px;
+    background-color: #192c33;
+}
