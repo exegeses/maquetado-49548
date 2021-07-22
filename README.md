@@ -15,7 +15,32 @@ Maquetado web es: volcar a código HTML y CSS el proyecto web que vayamos a reli
 1. un browser
 2. un IDE o Editor de código
 
-   Sublime Text 3 https://www.sublimetext.com/   
+   Sublime Text 4 https://www.sublimetext.com/   
    Visual Studio Code https://code.visualstudio.com/  
    Brackets http://brackets.io/  
-   
+
+## Fórmulas
+> Fórmula del HTML    
+
+    <elemento atributo="valor">    
+      objeto   
+    </elemento>
+
+> Fórmula del CSS  
+ 
+    selector{
+      atributo: valor;
+    } 
+
+# Tipos de selectores
+  1. de etiqueta  
+  2. de id
+  3. de class
+     
+### 1. Selector de Etiqueta
+>El selector de etiqueta se escribe igual que la etiqueta pero sin < >  
+> y sirve para modificar la estética de una etiqeuta cada vez que aparezca
+
+## 2. Selector de ID
+> El selector de ID sirve para modificar un elmento único en el HTML  
+
