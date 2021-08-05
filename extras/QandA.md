@@ -1,7 +1,6 @@
 
-    maquetado semántico
+span
+div
 
-    header
-    nav
-    main
-    footer
+section
+    article
