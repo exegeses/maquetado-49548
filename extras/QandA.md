@@ -1,6 +1,15 @@
+# Q and A
 
-span
-div
+se pueden escribir los selectores sin las comas?
 
-section
-    article
+selector descendente
+    
+    nav a {  }
+
+agrupamiento
+
+    h1, h2{  }
+
+
+.contenedor
+
