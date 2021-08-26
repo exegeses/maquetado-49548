@@ -7,6 +7,8 @@ body{
 header{
     height: 110px;
     border-top: 8px solid #E16D65;
+    display: flex;
+    align-content: center;
 }
     #top{
         width: 900px;
@@ -32,5 +34,35 @@ header{
     #top nav a:hover{
         color: #E8988A;
     }
-
     /* ####### FIN MENU ######## */
+    /* ####### HERO IMAGE ######## */
+    #hero{
+        height: 350px;
+        /*background-repeat: no-repeat;*/
+        background-image: url(../imagenes/pink-desk.webp);
+        background-size: cover;
+        background-position: center;
+    }
+    /* ####### FIN HERO IMAGE ######## */
+    /* ####### MAIN ######## */
+    main{
+        width: 900px;
+        margin: auto;
+        min-height: 500px;
+        display: flex;
+        flex-wrap: wrap; /* respeta los anchos */
+        justify-content: space-between;
+        margin-top: 30px;
+    }
+        main h1{
+            width: 100%;
+            font-size: 20px;
+        }
+        main article{
+            width: 400px;
+        }
+        main article h2{
+            font-size: 16px;
+        }
+
+    /* ####### FIN MAIN ######## */
