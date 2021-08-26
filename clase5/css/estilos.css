@@ -63,6 +63,28 @@ header{
         }
         main article h2{
             font-size: 16px;
+            background-image: url(../flaticons/wrench-sunglo.png);
+            background-size: 20px 20px;
+            background-repeat: no-repeat;
+            padding-left: 30px;
+            margin-bottom: 15px;
         }
 
     /* ####### FIN MAIN ######## */
+    /* ####### footer ######## */
+    footer{
+        height: 110px;
+    }
+    footer nav{
+
+    }
+    footer nav a{
+
+    }
+    footer nav a:hover´´{
+
+    }
+    footer a img{
+        width: 20px;
+    }
+    /* ####### FIN footer ######## */
