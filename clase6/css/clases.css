@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600&display=swap');
+*{ margin: 0; padding: 0; box-sizing: border-box; }
+body{
+    font-family: Nunito;
+    color: #707070;
+    width: 900px;
+    margin: auto;
+}
+    section{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    section article{
+        width: 400px;
+        margin: 25px 0px;
+    }
+    article span{
+
+    }
+    .marca{
+        color: #57422e;
+        font-weight: bold;
+    }
+    .hueso{
+        background-color: #F5F5F5;
+    }
+    .verde{
+        background-color: #DAF9E6;
+    }
