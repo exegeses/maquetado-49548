@@ -74,17 +74,33 @@ header{
     /* ####### footer ######## */
     footer{
         height: 110px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
     }
     footer nav{
-
+        width: 100%;
+        display: flex;
+        justify-content: center; /* centrado horizontal */
+        align-items: center; /* centrado vertical */
+    }
+    footer a{
+        padding: 10px 20px;
     }
     footer nav a{
+        text-decoration: none;
+        color: #707070;
 
     }
-    footer nav a:hover´´{
-
+    footer nav a:hover{
+        color: #E8988A;
+        transition: 200ms;
     }
     footer a img{
         width: 20px;
+        opacity: .5;
+    }
+    footer a img:hover{
+        opacity: 1;
     }
     /* ####### FIN footer ######## */
